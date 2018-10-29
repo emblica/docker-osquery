@@ -6,7 +6,7 @@ osquery in slim debian container
 
 
 ```
-# docker run -it --rm osquery osqueryi
+# docker run -it --rm emblica/osquery osqueryi
 ```
 
 ```
