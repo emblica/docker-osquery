@@ -9,7 +9,7 @@ RUN apt-get update \
         wget \
     && wget https://pkg.osquery.io/linux/osquery-3.3.0_1.linux_x86_64.tar.gz \
     && tar -xzvf osquery-3.3.0_1.linux_x86_64.tar.gz \
-    && rm -rf osquery-3.3.0_1.linux_x86_64.tar.gz
+    && rm -rf osquery-3.3.0_1.linux_x86_64.tar.gz \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /data
